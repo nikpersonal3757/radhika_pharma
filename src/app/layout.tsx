@@ -18,9 +18,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Radhika Pharma | Health Through Scientific Innovation",
+  title: "Radhika Pharmaceutical Private Limited | API & Antibiotics",
   description:
-    "Radhika Pharma delivers pharmaceutical excellence through rigorous quality assurance, research-driven formulations, and certified manufacturing.",
+    "Radhika Pharmaceutical Private Limited is an API manufacturer established in 2024, focused on high-quality finished products for antibiotics and public health in India and worldwide.",
 };
 
 export default function RootLayout({

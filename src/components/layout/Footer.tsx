@@ -58,20 +58,20 @@ export function Footer() {
           <RadhikaLogo variant="footer" />
 
           <h2 id="footer-contact-heading" className="sr-only">
-            Contact Radhika Pharma
+            Contact Radhika Pharmaceutical Private Limited
           </h2>
 
           <div className="mt-10">
             <p className="text-[15px] font-bold text-white">Address:</p>
             <address className="mt-2 max-w-md text-[15px] leading-relaxed not-italic text-white/75">
-              No 129, Ground Floor, 2nd Main Road, Chamrajpet, Bengaluru — 560018
+              Plot No. 57, Industrial Area, Agar Malwa, Indore–Kota Road, Madhya Pradesh — 465441
             </address>
           </div>
 
           <div className="mt-8">
             <p className="text-[15px] font-bold text-white">Contact:</p>
             <p className="mt-2 text-[15px] leading-relaxed text-white/75">
-              +91-97425 03344 / +91-97425 83344 / +91-93804 51660
+              +91-79992 76546 / +91-74709 85511
               <br />
               <a
                 href="mailto:enquiry@radhikapharma.com"
@@ -110,7 +110,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10 py-6 text-center text-[13px] text-white/55">
-        © {new Date().getFullYear()} Radhika Pharma. All rights reserved.
+        © {new Date().getFullYear()} Radhika Pharmaceutical Private Limited. All rights reserved.
       </div>
     </footer>
   );

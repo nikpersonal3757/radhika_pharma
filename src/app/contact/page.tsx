@@ -4,9 +4,9 @@ import { ContactExpertIntro } from "@/components/sections/ContactExpertIntro";
 import { Navbar } from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Radhika Pharma",
+  title: "Contact Us | Radhika Pharmaceutical Private Limited",
   description:
-    "Reach Radhika Pharma for product enquiries, partnerships, and support. Expert guidance, secure communication, and responsive service.",
+    "Contact Radhika Pharmaceutical Private Limited in Agar Malwa, Madhya Pradesh—for API and antibiotic product enquiries, partnerships, and support.",
 };
 
 export default function ContactPage() {

@@ -41,19 +41,19 @@ const PILLARS = [
     title: "Our Motto",
     Icon: TargetIcon,
     body:
-      "The right medication should reach the right patient. We provide high-quality medicines at fair, transparent pricing—so care stays accessible without compromising standards.",
+      "Best quality and reliability in everything we do—from API development to antibiotic finished products—so partners and patients can trust every shipment.",
   },
   {
     title: "Our Vision",
     Icon: EyeIcon,
     body:
-      "To become a quality- and technology-led pharmaceutical partner recognised across India and globally—for dependable manufacturing, rigorous compliance, and enduring trust.",
+      "To grow as a recognised manufacturer of APIs and antibiotic finished dosage forms, strengthening public health across India and international markets through consistent excellence.",
   },
   {
-    title: "Our Values",
+    title: "Our Goal",
     Icon: UserPlusIcon,
     body:
-      "We are customer-oriented at our core. Delivering wholesome satisfaction to healthcare providers, partners, and patients remains our guiding motive in every batch we release.",
+      "Serving national and international public health through dependable manufacturing, rigorous standards, and lasting partnerships.",
   },
 ];
 
@@ -68,8 +68,8 @@ export function AboutMottoVisionValues() {
           id="about-pillars-heading"
           className="font-heading mx-auto max-w-4xl text-balance text-center text-[clamp(1.65rem,3.6vw,2.35rem)] font-bold leading-snug tracking-tight text-secondary"
         >
-          Transforming Healthcare by Empowering Entrepreneurs with{" "}
-          <span className="text-primary">Quality Pharmaceuticals</span>
+          Transforming public health with{" "}
+          <span className="text-primary">quality APIs &amp; antibiotics</span>
         </h2>
 
         <div className="mt-14 grid gap-8 md:grid-cols-3 lg:mt-16 lg:gap-10">

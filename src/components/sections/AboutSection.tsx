@@ -27,11 +27,12 @@ export function AboutSection() {
             id="about-banner-heading"
             className="font-heading max-w-3xl text-[clamp(1.75rem,3.5vw,2.35rem)] font-bold tracking-tight text-secondary"
           >
-            Leading pharmaceutical partner
+            APIs and finished products for antibiotics
           </h2>
           <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-secondary/78 md:text-lg">
-            Radhika Pharma is a trusted name in pharmaceutical distribution and manufacturing—known for
-            quality-assured formulations and dependable supply across healthcare networks.
+            Radhika Pharma is an Active Pharmaceutical Ingredients (API) manufacturing company
+            established in 2024—focused on high-quality finished products for antibiotics and on serving
+            public health in India and abroad.
           </p>
         </div>
       </div>
@@ -44,16 +45,33 @@ export function AboutSection() {
               About Radhika Pharma
             </span>
             <h3 className="font-heading mt-8 text-balance text-[clamp(1.85rem,3.4vw,2.65rem)] font-bold leading-[1.15] tracking-tight text-secondary">
-              Empowering healthcare with{" "}
-              <span className="text-primary">high-quality pharma products</span> across India
+              <span className="text-primary">Best quality and reliability</span> for national and global
+              health
             </h3>
             <p className="mt-6 text-[17px] leading-relaxed text-secondary/78">
-              At Radhika Pharma, our mission is to ensure individuals and institutions have access to
-              dependable medicines—from tablets and capsules to syrups and injections—supported by
-              rigorous quality systems and transparent partnerships. We work alongside clinicians,
-              distributors, and entrepreneurs to strengthen community health with innovation grounded in
-              science.
+              Radhika Pharma is an Active Pharmaceutical Ingredients (API) manufacturing company established
+              in 2024, whose primary focus is producing high-quality finished products for antibiotics. The
+              company&apos;s main motto is to provide top-notch quality and reliability, aimed at serving
+              national and international public health.
             </p>
+            <dl className="mt-8 grid gap-4 rounded-2xl border border-secondary/[0.08] bg-surface/80 p-6 text-[15px] leading-relaxed text-secondary/85">
+              <div className="grid gap-1 sm:grid-cols-[8.5rem_minmax(0,1fr)] sm:gap-4">
+                <dt className="font-semibold text-secondary">Legal name</dt>
+                <dd>Radhika Pharmaceutical Private Limited</dd>
+              </div>
+              <div className="grid gap-1 sm:grid-cols-[8.5rem_minmax(0,1fr)] sm:gap-4">
+                <dt className="font-semibold text-secondary">Industry</dt>
+                <dd>Active Pharmaceutical Ingredients (APIs) and finished products</dd>
+              </div>
+              <div className="grid gap-1 sm:grid-cols-[8.5rem_minmax(0,1fr)] sm:gap-4">
+                <dt className="font-semibold text-secondary">Established</dt>
+                <dd>2024</dd>
+              </div>
+              <div className="grid gap-1 sm:grid-cols-[8.5rem_minmax(0,1fr)] sm:gap-4">
+                <dt className="font-semibold text-secondary">Specialization</dt>
+                <dd>Antibiotics</dd>
+              </div>
+            </dl>
           </div>
 
           <div className="relative mx-auto aspect-[4/3] w-full max-w-[540px] lg:mx-0 lg:max-w-none lg:aspect-auto lg:min-h-[440px]">

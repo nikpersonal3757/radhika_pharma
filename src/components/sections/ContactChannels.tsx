@@ -37,7 +37,8 @@ function IconPhone({ className }: { className?: string }) {
 const CHANNELS = [
   {
     label: "Our Location",
-    detail: "No 129, Ground Floor, 2nd Main Road, Chamrajpet, Bengaluru — 560018",
+    detail:
+      "Plot No. 57, Industrial Area, Agar Malwa, Indore–Kota Road, Madhya Pradesh — 465441",
     Icon: IconPin,
   },
   {
@@ -48,8 +49,8 @@ const CHANNELS = [
   },
   {
     label: "Call Us",
-    detail: "+91-97425 03344 / +91-97425 83344 / +91-93804 51660",
-    href: "tel:+919742503344",
+    detail: "+91-79992 76546 / +91-74709 85511",
+    href: "tel:+917999276546",
     Icon: IconPhone,
   },
 ];
@@ -94,7 +95,7 @@ export function ContactChannels() {
 
         <div className="mt-12 flex justify-center md:mt-14">
           <a
-            href="tel:+919742503344"
+            href="tel:+917999276546"
             className="inline-flex w-full max-w-md items-center justify-center gap-3 rounded-full bg-primary px-10 py-4 text-[16px] font-bold text-white shadow-lg shadow-primary/25 transition hover:bg-primary/90 hover:shadow-xl md:w-auto md:min-w-[280px]"
           >
             <IconPhone className="h-5 w-5 text-white" />

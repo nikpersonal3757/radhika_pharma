@@ -4,9 +4,9 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { Navbar } from "@/components/layout/Navbar";
 
 export const metadata: Metadata = {
-  title: "About Us | Radhika Pharma",
+  title: "About Us | Radhika Pharmaceutical Private Limited",
   description:
-    "Radhika Pharma partners across India with quality-assured pharmaceutical products, rigorous standards, and trusted distribution.",
+    "Learn about Radhika Pharma—API manufacturing for antibiotics since 2024, with a motto of quality and reliability for national and international public health.",
 };
 
 export default function AboutPage() {

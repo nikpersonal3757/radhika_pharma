@@ -120,21 +120,22 @@ export function Hero() {
               <div className="relative">
                 <span className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-[13px] font-semibold text-white shadow-sm">
                   <ShieldBadgeIcon />
-                  Trusted product information
+                  API manufacturing · Est. 2024
                 </span>
 
                 <h1
                   id="hero-heading"
                   className="font-heading mt-8 max-w-[26ch] text-balance text-[clamp(2rem,4.2vw,3.5rem)] font-bold leading-[1.12] tracking-tight"
                 >
-                  <span className="text-muted">Advancing Global</span>
+                  <span className="text-muted">Antibiotics and</span>
                   <br />
-                  <span className="text-secondary">Health Through Scientific Innovation</span>
+                  <span className="text-secondary">APIs built on quality</span>
                 </h1>
 
                 <p className="relative mt-6 max-w-xl text-[17px] leading-relaxed text-secondary/85">
-                  Driving excellence in medicine through advanced development, precision science, and
-                  dependable pharmaceutical supply—for healthier communities everywhere.
+                  Radhika Pharmaceutical Private Limited manufactures active pharmaceutical ingredients and
+                  high-quality finished antibiotic products—with a focus on reliability for healthcare
+                  partners in India and worldwide.
                 </p>
 
                 <div className="relative mt-10 flex flex-wrap items-center gap-4">

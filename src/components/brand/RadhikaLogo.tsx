@@ -18,11 +18,18 @@ export function RadhikaLogo({ variant = "header", className }: RadhikaLogoProps)
           <path d="M12 9v6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
         </svg>
       </span>
-      <span
-        className={`font-heading text-lg font-bold tracking-tight md:text-[1.125rem] ${footer ? "text-white" : "text-secondary"}`}
-      >
-        Radhika{" "}
-        <span className="bg-gradient-pharma bg-clip-text text-transparent">Pharma</span>
+      <span className="flex min-w-0 flex-col leading-tight">
+        <span
+          className={`font-heading text-lg font-bold tracking-tight md:text-[1.125rem] ${footer ? "text-white" : "text-secondary"}`}
+        >
+          Radhika{" "}
+          <span className="bg-gradient-pharma bg-clip-text text-transparent">Pharma</span>
+        </span>
+        {footer ? (
+          <span className="mt-0.5 text-[11px] font-medium uppercase tracking-[0.08em] text-white/60">
+            Pharmaceutical Private Limited
+          </span>
+        ) : null}
       </span>
     </Link>
   );
